@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munchy Food - Fast Food in Pak Style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <div style="padding-left: 40px;" class="logo animated-logo-flash">Munchy Food</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-bg-gradient">
+        <section id="home" class="hero animated-fade-in">
+            <h1 class="animated-slide-down">Welcome to Munchy Food</h1>
+            <p style="color: #ff0000;" class="animated-slide-up">Pakistani Style Fast Food - Taste the Tradition!</p>
+            <a href="#menu" class="btn animated-pop">View Menu</a>
+            <div class="man-burger-scene hero-man-burger" id="scene">
+                <img src="/3d-man.webp" class="scroll-man" id="scrollMan" alt="3D Man">
+                <img src="/restaurant.png" class="scroll-burger" id="scrollBurger" alt="Burger">
+            </div>
+        </section>
+    </div>
+    <section id="menu" class="menu-section animated-fade-in">
+        <h2 class="animated-slide-left">Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item animated-pop">
+                <img src="../beef burgur.jpg" alt="Zinger Burger">
+                <h3>Zinger Burger</h3>
+                <p>Crispy chicken fillet, fresh veggies, and spicy sauce in a soft bun.</p>
+                <span class="price">Rs. 350</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../fries.jpg" alt="Masala Fries">
+                <h3>Masala Fries</h3>
+                <p>Golden fries tossed in special Pakistani masala.</p>
+                <span class="price">Rs. 150</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../chicken shawarma.jpg" alt="Chicken Shawarma">
+                <h3>Chicken Shawarma</h3>
+                <p>Juicy chicken, fresh salad, and sauces wrapped in pita bread.</p>
+                <span class="price">Rs. 250</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../chicken roll.jpg" alt="Chicken Roll">
+                <h3>Chicken Roll</h3>
+                <p>Spicy chicken, onions, and chutney wrapped in a paratha.</p>
+                <span class="price">Rs. 180</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../beef burgur.jpg" alt="Beef Burger">
+                <h3>Beef Burger</h3>
+                <p>Juicy beef patty, cheese, and fresh veggies in a sesame bun.</p>
+                <span class="price">Rs. 400</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../loaded fries.jpg" alt="Loaded Fries">
+                <h3>Loaded Fries</h3>
+                <p>Fries topped with cheese, chicken, and spicy sauces.</p>
+                <span class="price">Rs. 220</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../chicken nuggets.jpg" alt="Chicken Nuggets">
+                <h3>Chicken Nuggets</h3>
+                <p>Crispy chicken nuggets served with ketchup and mayo.</p>
+                <span class="price">Rs. 200</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../club sandwich.jpg  " alt="Club Sandwich">
+                <h3>Club Sandwich</h3>
+                <p>Triple layered sandwich with chicken, egg, and veggies.</p>
+                <span class="price">Rs. 300</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../pizzaslice.jpg" alt="Pizza Slice">
+                <h3>Pizza Slice</h3>
+                <p>Cheesy pizza slice loaded with chicken tikka and veggies.</p>
+                <span class="price">Rs. 180</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../chicken cheese paatha.jpg" alt="Chicken Cheese Paratha">
+                <h3>Chicken Cheese Paratha</h3>
+                <p>Stuffed paratha with spicy chicken and melted cheese.</p>
+                <span class="price">Rs. 220</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../falooda.jpg" alt="Falooda">
+                <h3>Falooda</h3>
+                <p>Traditional Pakistani dessert with vermicelli, ice cream, and rose syrup.</p>
+                <span class="price">Rs. 120</span>
+            </div>
+            <div class="menu-item animated-pop">
+               <img class="menu-img" src="../chicken wrap.png" alt="Paneer Tikka Wrap">
+                <h3>Paneer Tikka Wrap</h3>
+                <p>Grilled paneer, veggies, and sauces wrapped in a soft tortilla.</p>
+                <span class="price">Rs. 200</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../spicy wings.jpg" alt="Spicy Wings">
+                <h3>Spicy Wings</h3>
+                <p>Hot and crispy chicken wings tossed in signature sauce.</p>
+                <span class="price">Rs. 260</span>
+            </div>
+            <div class="menu-item animated-pop">
+                <img src="../mint margarita.jpg" alt="Mint Margarita">
+                <h3>Mint Margarita</h3>
+                <p>Refreshing mint drink with lemon and soda.</p>
+                <span class="price">Rs. 100</span>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Munchy Food brings you the best of Pakistani fast food with a modern twist. Our recipes are inspired by local flavors and made with love!</p>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+            <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+        <div id="formMessage"></div>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script src="script.js">
+          (function(){
+            emailjs.init('farooqihassan993@gmail.com'); // Replace with your EmailJS user ID
+          })();
+        </script>
+    </section>
+    <footer>
+        <p>&copy; 2025 Munchy Food. All rights reserved.</p>
+    </footer>
+<!-- JavaScript to be added -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const cart = [];
+    const cartBox = document.createElement('div');
+    cartBox.id = 'cartBox';
+    cartBox.style.display = 'none';
+    cartBox.innerHTML = `
+      <h3>Your Cart</h3>
+      <ul id="cartItems"></ul>
+      <div id="cartTotal"></div>
+      <button id="buyNowBtn">Buy Now</button>
+    `;
+    document.body.appendChild(cartBox);
+
+    const items = document.querySelectorAll(".menu-item");
+    items.forEach(item => {
+      const name = item.querySelector("h3").innerText;
+      const priceText = item.querySelector(".price").innerText;
+      const price = parseFloat(priceText.replace('Rs. ', ''));
+
+      const btn = document.createElement("button");
+      btn.innerText = "Add to Cart";
+      btn.className = "add-to-cart";
+      btn.addEventListener("click", () => {
+        const existing = cart.find(p => p.name === name);
+        if (existing) {
+          existing.qty += 1;
+        } else {
+          cart.push({ name, price, qty: 1 });
+        }
+        renderCart();
+        cartBox.style.display = 'block';
+      });
+      item.appendChild(btn);
+    });
+
+    function renderCart() {
+      const ul = document.getElementById("cartItems");
+      const totalDiv = document.getElementById("cartTotal");
+      ul.innerHTML = "";
+      let total = 0;
+      cart.forEach((item, index) => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+          ${item.name} (x${item.qty}) - Rs. ${item.price * item.qty}
+          <button class="qty-btn" onclick="updateQty(${index}, -1)">-</button>
+          <button class="qty-btn" onclick="updateQty(${index}, 1)">+</button>
+        `;
+        ul.appendChild(li);
+        total += item.price * item.qty;
+      });
+      totalDiv.innerText = `Total: Rs. ${total}`;
+    }
+
+    window.updateQty = function(index, change) {
+      cart[index].qty += change;
+      if (cart[index].qty <= 0) cart.splice(index, 1);
+      renderCart();
+      if (cart.length === 0) cartBox.style.display = 'none';
+    }
+
+    document.addEventListener("click", function(e) {
+      if (e.target && e.target.id === "buyNowBtn") {
+        const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
+        alert("Thank you for your order! Total: Rs. " + total);
+        cart.length = 0;
+        renderCart();
+        cartBox.style.display = 'none';
+      }
+    });
+  });
+</script>
+
+<!-- CSS to be added to style.css -->
+<style>
+  #cartBox {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 280px;
+    background: #fff8e1;
+    border: 2px solid #ffd600;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 12px;
+    z-index: 1000;
+  }
+  #cartBox h3 {
+    margin-top: 0;
+    color: #ff0000;
+  }
+  #cartItems li {
+    list-style: none;
+    padding: 5px 0;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #ffd600;
+  }
+  #cartTotal {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #b30000;
+  }
+  #buyNowBtn {
+    margin-top: 10px;
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+  }
+  #buyNowBtn:hover {
+    background: #b30000;
+  }
+  .add-to-cart {
+    background: #ffd600;
+    color: #ff0000;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .add-to-cart:hover {
+    background: #ff0000;
+    color: #ffd600;
+  }
+  .qty-btn {
+    margin-left: 6px;
+    padding: 2px 6px;
+    font-weight: bold;
+    background: #ffd600;
+    color: #ff0000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .qty-btn:hover {
+    background: #ff0000;
+    color: #fff8e1;
+  }
+</style>
+</body>
+</html>
